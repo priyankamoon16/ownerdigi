@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>
+    Property dealers for all residential and commercials in Indore,Pune
+    ,1bhk,2bhk,3bhk in Pune,
+  </title>
+  <link rel="canonical" href="https://properties.digiowner.com/">
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<script type="text/javascript" src="assets/marzipano.js"></script>
+<script type="text/javascript">
+
+var panoElement = document.getElementById('pano');
+//Flash//
+var viewerOpts = {
+  controls: {
+    mouseViewMode: 'drag'    // drag|qtvr
+  }
+};
+
+var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
+
+</script>
+
+<script type="text/javascript">
+//Initializing - loading preview//
+
+var panoElement = document.getElementById('pano');
+var viewerOpts = {
+controls: {
+ mouseViewMode: 'drag'    // drag|qtvr
+}
+};
+
+var viewer = new Marzipano.Viewer(panoElement, viewerOpts)
+console.log("=================================================",viewer)
+</script>
+
+
+<script type="text/javascript">
+
+//Scene//
+
+var levels = [
+{ tileSize: 256, size: 256, fallbackOnly: true },
+{ tileSize: 512, size: 512 },
+{ tileSize: 512, size: 1024 }
+];
+
+var geometry = new Marzipano.CubeGeometry(levels);
+
+var source = Marzipano.ImageUrlSource.fromString("assets/tiles/0-360view/{z}/{f}/{y}/{x}.jpg", {
+cubeMapPreviewUrl: "assets/tiles/0-360view/preview.jpg"
+});
+
+var initialView = {
+yaw: 90 * Math.PI/180,
+pitch: -30 * Math.PI/180,
+fov: 90 * Math.PI/180
+};
+
+var limiter = Marzipano.RectilinearView.limit.traditional(1024, 120*Math.PI/180);
+
+var view = new Marzipano.RectilinearView(initialView, limiter);
+
+var scene = viewer.createScene({
+source: source,
+geometry: geometry,
+view: view,
+pinFirstLevel: true
+});
+
+
+</script>
+<body>
+  <div id="pano"></div>
+<div id="spot"></div>
+  <app-root></app-root>
+</body>
+</html>

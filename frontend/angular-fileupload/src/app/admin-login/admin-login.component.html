@@ -1,0 +1,98 @@
+<style>
+.title {
+    background-color: grey;
+
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.toast-top-center {
+    top: 12px;
+    left: 50%;
+    margin-left: -150px;
+}
+@media all and (max-width: 240px) {
+    .toast-top-center {
+        margin-left: -54px;
+    }
+}
+@media all and (min-width: 241px) and (max-width: 320px) {
+    .toast-top-center {
+        margin-left: -64px;
+    }
+}
+@media all and (min-width: 321px) and (max-width: 480px) {
+    .toast-top-center {
+        margin-left: -96px;
+    }
+}
+#mydiv {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1000;
+    background-color:grey;
+    opacity: .8;
+ }
+
+.ajax-loader {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -32px; /* -1 * image width / 2 */
+    margin-top: -32px;  /* -1 * image height / 2 */
+    display: block;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+}
+.my-form{
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  margin-top: 20vh;
+}
+
+.full-width {
+  width: 100%;
+}
+.form-label{
+  font-size: 20px;
+  color:black;
+  font-style:bold
+}
+</style>
+
+
+
+<div class="container login"   style="text-align:center">
+  <section>
+      <form class="my-form" (ngSubmit)="login()" #loginForm="ngForm">
+          <div class="form-group">
+              <label for="exampleInputEmail1" class="form-label"> Username </label>
+              <input type="email" [(ngModel)]="model.emailId" class="form-control" id="exampleInputEmail1" name="emailId" aria-describedby="emailHelp"
+                  placeholder="Enter email" required>
+          </div>
+        <br>
+          <div class="form-group">
+              <label for="exampleInputPassword1" class="form-label">Password </label>
+              <input type="password" [(ngModel)]="model.password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+                  required>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary" [disabled]="!loginForm.form.valid">Login</button>
+      </form>
+      <br>
+      <div class="alert alert-danger" *ngIf="showLoginWarningMessage" role="alert">
+          Invalid email id or password
+      </div>
+  </section>
+</div>
+<router-outlet></router-outlet>
+

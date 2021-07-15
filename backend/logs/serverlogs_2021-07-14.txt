@@ -1,0 +1,348 @@
+[2021-07-14T10:33:00.538] [DEBUG] default - MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\connection.js:846:32)
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:351:10
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:350:20)
+    at Object.<anonymous> (C:\projects\DigiOwnerProperty\backend\index.js:123:10)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+    at node:internal/main/run_main_module:17:47 {
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}
+[2021-07-14T11:41:55.584] [DEBUG] default - MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\connection.js:846:32)
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:351:10
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:350:20)
+    at Object.<anonymous> (C:\projects\DigiOwnerProperty\backend\index.js:116:10)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+    at node:internal/main/run_main_module:17:47 {
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}
+[2021-07-14T11:43:02.266] [DEBUG] default - MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\connection.js:846:32)
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:351:10
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:350:20)
+    at Object.<anonymous> (C:\projects\DigiOwnerProperty\backend\index.js:116:10)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+    at node:internal/main/run_main_module:17:47 {
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}
+[2021-07-14T11:44:50.271] [DEBUG] default - MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\connection.js:846:32)
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:351:10
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:350:20)
+    at Object.<anonymous> (C:\projects\DigiOwnerProperty\backend\index.js:115:10)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+    at node:internal/main/run_main_module:17:47 {
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}
+[2021-07-14T12:14:34.000] [INFO] default - /files
+[2021-07-14T12:14:46.002] [INFO] default - /upload
+[2021-07-14T12:14:46.009] [INFO] default - /upload
+[2021-07-14T12:14:46.012] [INFO] default - /upload
+[2021-07-14T12:14:46.015] [INFO] default - /upload
+[2021-07-14T12:17:14.358] [INFO] default - /upload
+[2021-07-14T12:17:14.373] [INFO] default - /upload
+[2021-07-14T12:17:14.382] [INFO] default - /upload
+[2021-07-14T12:17:14.389] [INFO] default - /upload
+[2021-07-14T12:17:24.996] [INFO] default - /files
+[2021-07-14T12:17:33.566] [INFO] default - /upload
+[2021-07-14T12:17:33.569] [INFO] default - /upload
+[2021-07-14T12:18:14.702] [INFO] default - /files
+[2021-07-14T12:18:23.913] [INFO] default - /upload
+[2021-07-14T12:18:23.916] [INFO] default - /upload
+[2021-07-14T12:19:56.837] [INFO] default - /files
+[2021-07-14T12:20:04.981] [INFO] default - /upload
+[2021-07-14T12:20:04.987] [INFO] default - /upload
+[2021-07-14T12:34:44.552] [INFO] default - /files
+[2021-07-14T12:35:12.184] [INFO] default - /upload
+[2021-07-14T12:35:12.190] [INFO] default - /upload
+[2021-07-14T12:35:12.192] [INFO] default - /upload
+[2021-07-14T12:35:12.220] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_039.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T12:35:12.226] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'battery__dkv8umyqg0a6_large.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T12:35:12.272] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_019.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T12:35:12.337] [INFO] default - /files
+[2021-07-14T12:35:12.357] [INFO] default - /files
+[2021-07-14T12:35:12.404] [INFO] default - /files
+[2021-07-14T13:01:16.764] [INFO] default - /upload
+[2021-07-14T13:01:16.779] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'battery__dkv8umyqg0a6_large.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:01:16.790] [INFO] default - /upload
+[2021-07-14T13:01:16.794] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_039.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:01:16.800] [INFO] default - /upload
+[2021-07-14T13:01:16.804] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_019.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:01:16.922] [INFO] default - /files
+[2021-07-14T13:01:16.964] [INFO] default - /files
+[2021-07-14T13:01:16.981] [INFO] default - /files
+[2021-07-14T13:01:54.611] [INFO] default - /upload
+[2021-07-14T13:01:54.628] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'battery__dkv8umyqg0a6_large.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:01:54.634] [INFO] default - /upload
+[2021-07-14T13:01:54.641] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_019.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:01:54.690] [INFO] default - /files
+[2021-07-14T13:01:54.706] [INFO] default - /upload
+[2021-07-14T13:01:54.708] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_039.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:01:54.752] [INFO] default - /files
+[2021-07-14T13:02:24.597] [INFO] default - /upload
+[2021-07-14T13:02:24.610] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'battery__dkv8umyqg0a6_large.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:02:24.648] [INFO] default - /upload
+[2021-07-14T13:02:24.651] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_019.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:02:24.654] [INFO] default - /upload
+[2021-07-14T13:02:24.656] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_039.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:02:24.688] [INFO] default - /files
+[2021-07-14T13:02:24.757] [INFO] default - /files
+[2021-07-14T13:06:02.441] [INFO] default - /upload
+[2021-07-14T13:06:02.455] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'battery__dkv8umyqg0a6_large.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:06:02.467] [INFO] default - /upload
+[2021-07-14T13:06:02.471] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_039.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:06:02.474] [INFO] default - /upload
+[2021-07-14T13:06:02.476] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_019.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:06:02.608] [INFO] default - /files
+[2021-07-14T13:06:02.694] [INFO] default - /files
+[2021-07-14T13:06:02.704] [INFO] default - /files
+[2021-07-14T13:06:13.415] [INFO] default - /upload
+[2021-07-14T13:06:13.418] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'battery__dkv8umyqg0a6_large.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:06:13.422] [INFO] default - /upload
+[2021-07-14T13:06:13.426] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_019.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:06:13.475] [INFO] default - /upload
+[2021-07-14T13:06:13.477] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_039.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:06:13.519] [INFO] default - /files
+[2021-07-14T13:06:13.559] [INFO] default - /files
+[2021-07-14T13:07:49.927] [INFO] default - /upload
+[2021-07-14T13:07:49.940] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'battery__dkv8umyqg0a6_large.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:07:49.953] [INFO] default - /upload
+[2021-07-14T13:07:49.957] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_019.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:07:50.020] [INFO] default - /upload
+[2021-07-14T13:09:43.141] [INFO] default - /upload
+[2021-07-14T13:09:43.156] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'battery__dkv8umyqg0a6_large.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:09:43.168] [INFO] default - /upload
+[2021-07-14T13:09:43.172] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_019.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:09:43.199] [INFO] default - /upload
+[2021-07-14T13:09:43.201] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_039.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:09:43.226] [INFO] default - /files
+[2021-07-14T13:09:43.256] [INFO] default - /files
+[2021-07-14T13:09:43.279] [INFO] default - /files
+[2021-07-14T13:16:24.203] [INFO] default - /files
+[2021-07-14T13:18:24.711] [INFO] default - /files
+[2021-07-14T13:18:40.352] [INFO] default - /upload
+[2021-07-14T13:18:40.356] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_key_099.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:18:40.358] [INFO] default - /upload
+[2021-07-14T13:18:40.360] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: 'flow_startframe.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+[2021-07-14T13:18:40.911] [INFO] default - /files
+[2021-07-14T13:21:38.615] [INFO] default - /files
+[2021-07-14T13:24:10.935] [INFO] default - /files
+[2021-07-14T14:01:05.091] [INFO] default - /files
+[2021-07-14T14:01:16.109] [INFO] default - /upload
+[2021-07-14T14:01:16.433] [INFO] default - file object -------------- {
+  fieldname: 'file',
+  originalname: '4155039898c9c946d5feb5546f0af594940f90ca.png',
+  encoding: '7bit',
+  mimetype: 'image/png'
+}
+[2021-07-14T14:01:16.526] [INFO] default - /files
+[2021-07-14T14:02:16.673] [INFO] default - /files

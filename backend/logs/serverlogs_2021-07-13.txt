@@ -1,0 +1,103 @@
+[2021-07-13T23:34:13.304] [INFO] default - /files
+[2021-07-13T23:34:14.497] [DEBUG] default - MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\connection.js:846:32)
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:351:10
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:350:20)
+    at Object.<anonymous> (C:\projects\DigiOwnerProperty\backend\index.js:123:10)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+    at node:internal/main/run_main_module:17:47 {
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}
+[2021-07-13T23:35:18.501] [INFO] default - /upload
+[2021-07-13T23:35:18.513] [INFO] default - /upload
+[2021-07-13T23:35:18.517] [INFO] default - /upload
+[2021-07-13T23:35:20.499] [INFO] default - /upload
+[2021-07-13T23:35:20.502] [INFO] default - /upload
+[2021-07-13T23:35:20.504] [INFO] default - /upload
+[2021-07-13T23:35:22.476] [INFO] default - /upload
+[2021-07-13T23:35:22.480] [INFO] default - /upload
+[2021-07-13T23:35:22.483] [INFO] default - /upload
+[2021-07-13T23:35:28.645] [INFO] default - /upload
+[2021-07-13T23:35:44.847] [DEBUG] default - MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\connection.js:846:32)
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:351:10
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:350:20)
+    at Object.<anonymous> (C:\projects\DigiOwnerProperty\backend\index.js:123:10)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+    at node:internal/main/run_main_module:17:47 {
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}
+[2021-07-13T23:37:14.638] [INFO] default - /upload
+[2021-07-13T23:37:14.710] [INFO] default - /upload
+[2021-07-13T23:37:39.480] [DEBUG] default - MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\connection.js:846:32)
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:351:10
+    at C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (C:\projects\DigiOwnerProperty\backend\node_modules\mongoose\lib\index.js:350:20)
+    at Object.<anonymous> (C:\projects\DigiOwnerProperty\backend\index.js:123:10)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+    at node:internal/main/run_main_module:17:47 {
+  reason: TopologyDescription {
+    type: 'Single',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  }
+}

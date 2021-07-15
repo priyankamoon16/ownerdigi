@@ -1,0 +1,2 @@
+[2021-06-06T13:19:38.797] [INFO] default - DB started successfully
+[2021-06-06T13:19:50.054] [INFO] default - /favicon.ico
